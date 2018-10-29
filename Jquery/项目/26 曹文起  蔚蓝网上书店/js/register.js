@@ -38,6 +38,7 @@ $(document).ready(function(){
 	});
 	//提交按钮样式变化
 	$("#registerBtn").mouseover(function(){
+		//鼠标事件 移入事件
 		$(this).attr("src","images/register_btn_over.gif");
 		}).mouseover(function(){
 			$(this).attr("src","images/register_btn_out.gif");
@@ -52,6 +53,7 @@ $(document).ready(function(){
 	cityList['江苏省']=['南京市','无锡市','苏州市'];
 	cityList['浙江省']=['杭州市','宁波市','温州市'];
 	$("#province").append(function(){
+		//添加
 		var html =" ";
 		for(var i in cityList){
 			html +="<option value="+i+">"+i+"</option>"
@@ -59,6 +61,7 @@ $(document).ready(function(){
 		return $(html);
 	});
 	$("#province").change(function(){
+		//内容发生改变执行
 		var v = $(this).val();
 		var html ="";
 		if(v=="请选择省/城市"){
