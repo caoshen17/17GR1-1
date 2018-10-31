@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/org/news/dao/BaseDao.java=UTF-8
+encoding//src/org/news/dao/NewsDao.java=UTF-8
+encoding//src/org/news/dao/TopicsDao.java=UTF-8
+encoding//src/org/news/dao/UserDao.java=UTF-8
+encoding//src/org/news/dao/impl/NewsDaoImpl.java=UTF-8
+encoding//src/org/news/dao/impl/TopicsDaoImpl.java=UTF-8
+encoding//src/org/news/dao/impl/UserDaoImpl.java=UTF-8
+encoding//src/org/news/entity/Comment.java=UTF-8
+encoding//src/org/news/entity/News.java=UTF-8
+encoding//src/org/news/entity/Topic.java=UTF-8
+encoding//src/org/news/entity/User.java=UTF-8
+encoding//src/org/news/util/ConfigManager.java=UTF-8
+encoding/<project>=UTF-8
